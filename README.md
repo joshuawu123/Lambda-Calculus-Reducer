@@ -2,8 +2,8 @@
 
 A basic lambda calculus reducer that supports applicative and normal order reductions, along with conversion to deBruijn index form. 
 
-## Description
-Expressions take the form shown in the Data.hs file, so applications and lambda are explicitly typed out. For example, \x.xx would take the form (Lambda "x" (App (Var "x") (Var "x"))).  
+Keep in mind that expressions take the form shown in the Data.hs file, so applications and lambda are explicitly typed out. For example, \x.xx would take the form (Lambda "x" (App (Var "x") (Var "x"))). 
+Sample commands are located in the comments.
 
 ## Usage
 Run ghci in the directory of the the files. Then load the Interpreter.hs file with ":l Interpreter".
